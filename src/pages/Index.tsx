@@ -17,6 +17,7 @@ import AgentCard, { AgentType } from '@/components/AgentCard';
 import WorkflowBuilder from '@/components/WorkflowBuilder';
 import Header from '@/components/Header';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
 
 const Index = () => {
