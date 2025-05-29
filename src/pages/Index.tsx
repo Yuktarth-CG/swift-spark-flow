@@ -1,10 +1,10 @@
-
 import React, { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import WelcomeSection from '@/components/WelcomeSection';
 import AgentGrid from '@/components/AgentGrid';
 import Sidebar from '@/components/Sidebar';
 import { agents } from '@/data/agents';
+import { Button } from '@/components/ui/button';
 
 const Index = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);

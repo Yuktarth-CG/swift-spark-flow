@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import AgentCard, { AgentType } from '@/components/AgentCard';
+import { agents } from '@/data/agents';
 import { toast } from 'sonner';
 
 interface AgentGridProps {
